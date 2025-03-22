@@ -1,0 +1,43 @@
+{
+  "name": "koishi-plugin-codeforces-card",
+  "description": "based on user's cf homepage generate codeforces card",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "contributors": [
+    "greenthree <https://github.com/greenthree>"
+  ],
+  "homepage": "https://github.com/KyLenMou/koishi-plugin-codeforces-card",
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "codeforces",
+    "card",
+    "cf"
+  ],
+  "koishi": {
+    "description": {
+      "zh": "基于CF的api生成用户的CF卡片",
+      "en": "Generate a CF card based on the CF API"
+    },
+    "service": {
+      "required": [
+        "canvas"
+      ]
+    }
+  },
+  "devDependencies": {
+    "koishi-plugin-skia-canvas": "^0.4.8"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.7",
+    "koishi-plugin-skia-canvas": "^0.4.8"
+  }
+}
