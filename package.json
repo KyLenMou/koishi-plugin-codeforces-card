@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-codeforces-card",
   "description": "based on user's cf homepage generate codeforces card",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
